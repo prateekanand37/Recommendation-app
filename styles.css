@@ -1,0 +1,28 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+* {
+  padding: 0;
+  background-color: antiquewhite;
+}
+.book-container {
+  max-width: 30rem;
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+}
+.book {
+  margin-top: 1rem;
+  border: 2px solid;
+  padding: 10px;
+  border-radius: 16px;
+}
+.book-genre {
+  display: inline;
+  margin: 10px;
+  border: 2px solid;
+  padding: 10px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
